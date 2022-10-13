@@ -26,7 +26,7 @@
     "color": {
       "field": "Disasters",
       "type": "quantitative",
-      "scale": {"type": "log"}
+      "scale": {"type": "log", "scheme": "yellowgreenblue"}
     },
     "tooltip": [
       {"field": "properties.NAME", "type": "nominal", "title": "Country"},
