@@ -16,6 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 
   <!-- CSS file -->
   <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
@@ -29,7 +30,7 @@
 
     <!-- pure grid group -->
     <div>
-      <div>
+      <div style="font-family: 'Dancing Script', cursive; font-size: 2em;">
         <h1><b><i>Natural Disasters Visualisation</i></b></h1>
       </div>
     </div>
@@ -51,21 +52,35 @@
     </div>
     <!-- end pure grid group -->
 
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-3">
+        <div class="description description-right">
+          <h2>Total number of disasters from 1900 to 2022</h2>
+          <p>The graph shows the number of natural disasters that have occured from 1900 to 2022. The trend that can be
+            observed is that until 2002 the yearly number of disasters have increased and then a decrease is observed
+            from there onwards. </p>
+        </div>
+      </div>
+      <div class="pure-u-2-3">
+        <div id="line" class="vis-container"></div>
+      </div>
+    </div>
+    <!-- end pure grid group -->
 
     <!-- pure grid group -->
     <div class="pure-g">
-      <div class="pure-u-2-3">
-        <div id="bar" class="vis-container"></div>
-      </div>
-      <div class="pure-u-1-3">
+      <div class="pure-u-1-1">
         <div class="description description-right">
-          <h2>Total number of disasters from 2005 to 2022 based on year</h2>
-          <p>The map shows the number of natural disasters that have occured from 1900 to 2022 per each country. The
-            color represents each continent based on the data set values. Further filtering can be performed by using
-            the drop down to get the statistics based on the continents</p>
+          <h2>Total number of disasters from 1970 to 2021</h2>
+          <p>The bars show the number of natural disasters that have occured from 1970 to 2022. Filtering can be
+            performed by using the drop down to get the statistics based on the continents. The tooltips show the early statistics for each
+            country in the year.</p>
         </div>
       </div>
-
+      <div class="pure-u-1-1">
+        <div id="bar" class="vis-container"></div>
+      </div>
     </div>
     <!-- end pure grid group -->
 
@@ -86,8 +101,8 @@
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
-    var spec4 = "https://raw.githubusercontent.com/MethmaWijerathna/FIT3179-Assignment-2/main/js/country_yearly_bar.vg.json";
-    vegaEmbed('#bar', spec3, { "actions": false }).then(function (result) {
+    var spec4 = "https://raw.githubusercontent.com/MethmaWijerathna/FIT3179-Assignment-2/main/js/yearly_line.vg.json";
+    vegaEmbed('#line', spec4, { "actions": false }).then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 

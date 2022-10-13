@@ -19,6 +19,14 @@
             "type": "quantitative",
             "title": "Number of Disasters"
         },
+        "color": {
+            "type": "nominal",
+            "field": "status_mean",
+            "scale": {
+                "range": ["#F6BE00"]
+            },
+            "legend":null
+        },
         "tooltip": [
             {
                 "field": "Year",

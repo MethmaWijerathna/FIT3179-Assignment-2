@@ -1,8 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 2500,
+    "width": 800,
     "height": 400,
-    "title": "Yearly number of natural disasters from 1900 to 2021 based on the continents",
+    "title": "Yearly number of natural disasters from 1970 to 2021 filtered by continents",
     "data": {
         "url": "https://raw.githubusercontent.com/MethmaWijerathna/FIT3179-Assignment-2/main/data/Country%20Totals%20Yearly.csv"
     },
@@ -33,6 +33,9 @@
     ],
     "transform": [
         {
+            "filter": "datum.Year > 1969"
+        },
+        {
             "filter": "Continent_selection == null || datum.Continent == Continent_selection"
         }
     ],
@@ -47,7 +50,7 @@
             "field": "Disasters",
             "type": "quantitative",
             "title": "Number of Disasters",
-            "scale": {"domain": [0, 550]}
+            "scale": {"domain": [0, 450]}
         },
         "color": {
             "field": "Disasters",
