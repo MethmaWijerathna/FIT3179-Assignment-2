@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 450,
     "height": 400,
-    "title": "Yearly number of natural disasters from 2006 to 2021",
+    "title": "Yearly number of natural disasters from 1900 to 2021",
     "data": {
         "url": "https://raw.githubusercontent.com/MethmaWijerathna/FIT3179-Assignment-2/main/data/Yearly%20Totals.csv"
     },
