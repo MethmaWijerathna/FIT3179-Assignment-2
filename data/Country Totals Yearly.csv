@@ -813,7 +813,7 @@ Year,Country,ISO,Continent,Disasters
 1966,Canada,CAN,Americas,1
 1966,Chad,TCD,Africa,1
 1966,Chile,CHL,Americas,1
-1966,Congo (the Democratic Republic of the),COD,Africa,1
+1966,Congo,COD,Africa,1
 1966,Cuba,CUB,Americas,1
 1966,Dominican Republic,DOM,Americas,1
 1966,Ecuador,ECU,Americas,1
@@ -909,7 +909,7 @@ Year,Country,ISO,Continent,Disasters
 1968,Brazil,BRA,Americas,1
 1968,Chile,CHL,Americas,2
 1968,Colombia,COL,Americas,1
-1968,Congo (the Democratic Republic of the),COD,Africa,1
+1968,Congo,COD,Africa,1
 1968,Costa Rica,CRI,Americas,1
 1968,Cuba,CUB,Americas,1
 1968,Dominican Republic,DOM,Americas,1
@@ -1249,7 +1249,7 @@ Year,Country,ISO,Continent,Disasters
 1976,Canada,CAN,Americas,1
 1976,China,CHN,Asia,2
 1976,Colombia,COL,Americas,2
-1976,Congo (the Democratic Republic of the),COD,Africa,1
+1976,Congo,COD,Africa,1
 1976,Costa Rica,CRI,Americas,2
 1976,Cuba,CUB,Americas,1
 1976,Denmark,DNK,Europe,1
@@ -1303,7 +1303,7 @@ Year,Country,ISO,Continent,Disasters
 1977,Chile,CHL,Americas,1
 1977,Colombia,COL,Americas,1
 1977,Comoros,COM,Africa,1
-1977,Congo (the Democratic Republic of the),COD,Africa,1
+1977,Congo,COD,Africa,1
 1977,Cuba,CUB,Americas,1
 1977,Djibouti,DJI,Africa,1
 1977,Ecuador,ECU,Americas,1
@@ -1369,7 +1369,7 @@ Year,Country,ISO,Continent,Disasters
 1978,Burundi,BDI,Africa,1
 1978,Chile,CHL,Americas,1
 1978,China,CHN,Asia,1
-1978,Congo (the Democratic Republic of the),COD,Africa,2
+1978,Congo,COD,Africa,2
 1978,Cuba,CUB,Americas,1
 1978,Djibouti,DJI,Africa,1
 1978,Dominican Republic,DOM,Americas,1
@@ -1704,7 +1704,7 @@ Year,Country,ISO,Continent,Disasters
 1983,China,CHN,Asia,9
 1983,Colombia,COL,Americas,3
 1983,Comoros,COM,Africa,1
-1983,Congo (the Democratic Republic of the),COD,Africa,1
+1983,Congo,COD,Africa,1
 1983,Congo,COG,Africa,1
 1983,Costa Rica,CRI,Americas,2
 1983,Cuba,CUB,Americas,1
@@ -2020,7 +2020,7 @@ Year,Country,ISO,Continent,Disasters
 1987,China,CHN,Asia,15
 1987,Colombia,COL,Americas,3
 1987,Comoros,COM,Africa,1
-1987,Congo (the Democratic Republic of the),COD,Africa,2
+1987,Congo,COD,Africa,2
 1987,Cook Islands,COK,Oceania,1
 1987,Cuba,CUB,Americas,1
 1987,Czechoslovakia,CSK,Europe,2
@@ -2047,7 +2047,7 @@ Year,Country,ISO,Continent,Disasters
 1987,Jamaica,JAM,Americas,1
 1987,Japan,JPN,Asia,2
 1987,Jordan,JOR,Asia,1
-1987,Korea (the Democratic People's Republic of),PRK,Asia,2
+1987,Korea,PRK,Asia,2
 1987,Korea,KOR,Asia,3
 1987,Laos,LAO,Asia,2
 1987,Lebanon,LBN,Asia,1
@@ -2198,7 +2198,7 @@ Year,Country,ISO,Continent,Disasters
 1989,China,CHN,Asia,14
 1989,Colombia,COL,Americas,1
 1989,Comoros,COM,Africa,2
-1989,Congo (the Democratic Republic of the),COD,Africa,1
+1989,Congo,COD,Africa,1
 1989,Côte d’Ivoire,CIV,Africa,1
 1989,Djibouti,DJI,Africa,1
 1989,Dominica,DMA,Americas,1
@@ -2283,7 +2283,7 @@ Year,Country,ISO,Continent,Disasters
 1990,Chile,CHL,Americas,1
 1990,China,CHN,Asia,18
 1990,Colombia,COL,Americas,4
-1990,Congo (the Democratic Republic of the),COD,Africa,1
+1990,Congo,COD,Africa,1
 1990,Cook Islands,COK,Oceania,2
 1990,Costa Rica,CRI,Americas,2
 1990,Cuba,CUB,Americas,2
@@ -2381,7 +2381,7 @@ Year,Country,ISO,Continent,Disasters
 1991,China,CHN,Asia,13
 1991,Colombia,COL,Americas,6
 1991,Comoros,COM,Africa,1
-1991,Congo (the Democratic Republic of the),COD,Africa,1
+1991,Congo,COD,Africa,1
 1991,Costa Rica,CRI,Americas,5
 1991,Cyprus,CYP,Asia,1
 1991,Côte d’Ivoire,CIV,Africa,1
@@ -2473,7 +2473,7 @@ Year,Country,ISO,Continent,Disasters
 1992,Chile,CHL,Americas,3
 1992,China,CHN,Asia,18
 1992,Colombia,COL,Americas,1
-1992,Congo (the Democratic Republic of the),COD,Africa,1
+1992,Congo,COD,Africa,1
 1992,Costa Rica,CRI,Americas,1
 1992,Cuba,CUB,Americas,2
 1992,Denmark,DNK,Europe,1
@@ -2584,7 +2584,7 @@ Year,Country,ISO,Continent,Disasters
 1993,Jamaica,JAM,Americas,1
 1993,Japan,JPN,Asia,9
 1993,Kazakhstan,KAZ,Asia,1
-1993,Korea (the Democratic People's Republic of),PRK,Asia,1
+1993,Korea,PRK,Asia,1
 1993,Korea,KOR,Asia,2
 1993,Laos,LAO,Asia,1
 1993,Lithuania,LTU,Europe,1
@@ -2647,7 +2647,7 @@ Year,Country,ISO,Continent,Disasters
 1994,Canada,CAN,Americas,3
 1994,China,CHN,Asia,18
 1994,Colombia,COL,Americas,4
-1994,Congo (the Democratic Republic of the),COD,Africa,1
+1994,Congo,COD,Africa,1
 1994,Congo,COG,Africa,1
 1994,Costa Rica,CRI,Americas,2
 1994,Cuba,CUB,Americas,2
@@ -2742,7 +2742,7 @@ Year,Country,ISO,Continent,Disasters
 1995,Chile,CHL,Americas,3
 1995,China,CHN,Asia,15
 1995,Colombia,COL,Americas,6
-1995,Congo (the Democratic Republic of the),COD,Africa,1
+1995,Congo,COD,Africa,1
 1995,Costa Rica,CRI,Americas,2
 1995,Cuba,CUB,Americas,3
 1995,Cyprus,CYP,Asia,1
@@ -2770,7 +2770,7 @@ Year,Country,ISO,Continent,Disasters
 1995,Israel,ISR,Asia,1
 1995,Japan,JPN,Asia,4
 1995,Kazakhstan,KAZ,Asia,1
-1995,Korea (the Democratic People's Republic of),PRK,Asia,2
+1995,Korea,PRK,Asia,2
 1995,Korea,KOR,Asia,2
 1995,Laos,LAO,Asia,4
 1995,Liberia,LBR,Africa,2
@@ -2839,7 +2839,7 @@ Year,Country,ISO,Continent,Disasters
 1996,Chad,TCD,Africa,1
 1996,China,CHN,Asia,20
 1996,Colombia,COL,Americas,4
-1996,Congo (the Democratic Republic of the),COD,Africa,2
+1996,Congo,COD,Africa,2
 1996,Costa Rica,CRI,Americas,3
 1996,Croatia,HRV,Europe,1
 1996,Cuba,CUB,Americas,3
@@ -2874,7 +2874,7 @@ Year,Country,ISO,Continent,Disasters
 1996,Jamaica,JAM,Americas,1
 1996,Japan,JPN,Asia,2
 1996,Kenya,KEN,Africa,2
-1996,Korea (the Democratic People's Republic of),PRK,Asia,2
+1996,Korea,PRK,Asia,2
 1996,Korea,KOR,Asia,2
 1996,Laos,LAO,Asia,1
 1996,Lesotho,LSO,Africa,2
@@ -2953,7 +2953,7 @@ Year,Country,ISO,Continent,Disasters
 1997,Chile,CHL,Americas,5
 1997,China,CHN,Asia,21
 1997,Colombia,COL,Americas,1
-1997,Congo (the Democratic Republic of the),COD,Africa,4
+1997,Congo,COD,Africa,4
 1997,Congo,COG,Africa,1
 1997,Cook Islands,COK,Oceania,2
 1997,Croatia,HRV,Europe,1
@@ -2987,7 +2987,7 @@ Year,Country,ISO,Continent,Disasters
 1997,Jordan,JOR,Asia,1
 1997,Kazakhstan,KAZ,Asia,2
 1997,Kenya,KEN,Africa,5
-1997,Korea (the Democratic People's Republic of),PRK,Asia,2
+1997,Korea,PRK,Asia,2
 1997,Korea,KOR,Asia,2
 1997,Kuwait,KWT,Asia,1
 1997,Kyrgyzstan,KGZ,Asia,2
@@ -3068,7 +3068,7 @@ Year,Country,ISO,Continent,Disasters
 1998,China,CHN,Asia,18
 1998,Colombia,COL,Americas,2
 1998,Comoros,COM,Africa,1
-1998,Congo (the Democratic Republic of the),COD,Africa,5
+1998,Congo,COD,Africa,5
 1998,Congo,COG,Africa,1
 1998,Costa Rica,CRI,Americas,3
 1998,Cuba,CUB,Americas,2
@@ -3101,7 +3101,7 @@ Year,Country,ISO,Continent,Disasters
 1998,Japan,JPN,Asia,7
 1998,Kazakhstan,KAZ,Asia,1
 1998,Kenya,KEN,Africa,2
-1998,Korea (the Democratic People's Republic of),PRK,Asia,1
+1998,Korea,PRK,Asia,1
 1998,Korea,KOR,Asia,5
 1998,Kyrgyzstan,KGZ,Asia,2
 1998,Liberia,LBR,Africa,2
@@ -3193,7 +3193,7 @@ Year,Country,ISO,Continent,Disasters
 1999,China,CHN,Asia,21
 1999,Colombia,COL,Americas,7
 1999,Comoros,COM,Africa,1
-1999,Congo (the Democratic Republic of the),COD,Africa,2
+1999,Congo,COD,Africa,2
 1999,Congo,COG,Africa,2
 1999,Costa Rica,CRI,Americas,1
 1999,Cuba,CUB,Americas,2
@@ -3231,7 +3231,7 @@ Year,Country,ISO,Continent,Disasters
 1999,Kazakhstan,KAZ,Asia,1
 1999,Kenya,KEN,Africa,4
 1999,Kiribati,KIR,Oceania,1
-1999,Korea (the Democratic People's Republic of),PRK,Asia,1
+1999,Korea,PRK,Asia,1
 1999,Korea,KOR,Asia,2
 1999,Laos,LAO,Asia,1
 1999,Latvia,LVA,Europe,1
@@ -3329,7 +3329,7 @@ Year,Country,ISO,Continent,Disasters
 2000,Chile,CHL,Americas,3
 2000,China,CHN,Asia,29
 2000,Colombia,COL,Americas,4
-2000,Congo (the Democratic Republic of the),COD,Africa,2
+2000,Congo,COD,Africa,2
 2000,Congo,COG,Africa,1
 2000,Costa Rica,CRI,Americas,1
 2000,Croatia,HRV,Europe,3
@@ -3364,7 +3364,7 @@ Year,Country,ISO,Continent,Disasters
 2000,Jordan,JOR,Asia,3
 2000,Kazakhstan,KAZ,Asia,2
 2000,Kenya,KEN,Africa,5
-2000,Korea (the Democratic People's Republic of),PRK,Asia,1
+2000,Korea,PRK,Asia,1
 2000,Korea,KOR,Asia,6
 2000,Kyrgyzstan,KGZ,Asia,1
 2000,Laos,LAO,Asia,3
@@ -3456,7 +3456,7 @@ Year,Country,ISO,Continent,Disasters
 2001,Chile,CHL,Americas,4
 2001,China,CHN,Asia,33
 2001,Colombia,COL,Americas,6
-2001,Congo (the Democratic Republic of the),COD,Africa,12
+2001,Congo,COD,Africa,12
 2001,Congo,COG,Africa,1
 2001,Cook Islands,COK,Oceania,1
 2001,Costa Rica,CRI,Americas,1
@@ -3488,7 +3488,7 @@ Year,Country,ISO,Continent,Disasters
 2001,Japan,JPN,Asia,6
 2001,Kazakhstan,KAZ,Asia,2
 2001,Kenya,KEN,Africa,5
-2001,Korea (the Democratic People's Republic of),PRK,Asia,2
+2001,Korea,PRK,Asia,2
 2001,Korea,KOR,Asia,4
 2001,Laos,LAO,Asia,1
 2001,Latvia,LVA,Europe,1
@@ -3578,7 +3578,7 @@ Year,Country,ISO,Continent,Disasters
 2002,Chile,CHL,Americas,5
 2002,China,CHN,Asia,29
 2002,Colombia,COL,Americas,5
-2002,Congo (the Democratic Republic of the),COD,Africa,11
+2002,Congo,COD,Africa,11
 2002,Congo,COG,Africa,2
 2002,Costa Rica,CRI,Americas,2
 2002,Cuba,CUB,Americas,3
@@ -3613,7 +3613,7 @@ Year,Country,ISO,Continent,Disasters
 2002,Japan,JPN,Asia,6
 2002,Jordan,JOR,Asia,1
 2002,Kenya,KEN,Africa,5
-2002,Korea (the Democratic People's Republic of),PRK,Asia,2
+2002,Korea,PRK,Asia,2
 2002,Korea,KOR,Asia,5
 2002,Kuwait,KWT,Asia,1
 2002,Kyrgyzstan,KGZ,Asia,1
@@ -3713,7 +3713,7 @@ Year,Country,ISO,Continent,Disasters
 2003,China,CHN,Asia,27
 2003,Colombia,COL,Americas,4
 2003,Comoros,COM,Africa,1
-2003,Congo (the Democratic Republic of the),COD,Africa,7
+2003,Congo,COD,Africa,7
 2003,Congo,COG,Africa,1
 2003,Costa Rica,CRI,Americas,2
 2003,Croatia,HRV,Europe,3
@@ -3840,7 +3840,7 @@ Year,Country,ISO,Continent,Disasters
 2004,Chile,CHL,Americas,2
 2004,China,CHN,Asia,25
 2004,Colombia,COL,Americas,4
-2004,Congo (the Democratic Republic of the),COD,Africa,5
+2004,Congo,COD,Africa,5
 2004,Costa Rica,CRI,Americas,3
 2004,Cuba,CUB,Americas,3
 2004,Cyprus,CYP,Asia,1
@@ -3875,7 +3875,7 @@ Year,Country,ISO,Continent,Disasters
 2004,Japan,JPN,Asia,12
 2004,Kazakhstan,KAZ,Asia,1
 2004,Kenya,KEN,Africa,5
-2004,Korea (the Democratic People's Republic of),PRK,Asia,2
+2004,Korea,PRK,Asia,2
 2004,Korea,KOR,Asia,7
 2004,Kyrgyzstan,KGZ,Asia,3
 2004,Laos,LAO,Asia,1
@@ -3971,7 +3971,7 @@ Year,Country,ISO,Continent,Disasters
 2005,China,CHN,Asia,31
 2005,Colombia,COL,Americas,5
 2005,Comoros,COM,Africa,4
-2005,Congo (the Democratic Republic of the),COD,Africa,5
+2005,Congo,COD,Africa,5
 2005,Congo,COG,Africa,2
 2005,Cook Islands,COK,Oceania,1
 2005,Costa Rica,CRI,Americas,3
@@ -4008,7 +4008,7 @@ Year,Country,ISO,Continent,Disasters
 2005,Japan,JPN,Asia,6
 2005,Kazakhstan,KAZ,Asia,1
 2005,Kenya,KEN,Africa,6
-2005,Korea (the Democratic People's Republic of),PRK,Asia,1
+2005,Korea,PRK,Asia,1
 2005,Korea,KOR,Asia,5
 2005,Kyrgyzstan,KGZ,Asia,1
 2005,Latvia,LVA,Europe,3
@@ -4104,7 +4104,7 @@ Year,Country,ISO,Continent,Disasters
 2006,China,CHN,Asia,37
 2006,Colombia,COL,Americas,3
 2006,Comoros,COM,Africa,1
-2006,Congo (the Democratic Republic of the),COD,Africa,11
+2006,Congo,COD,Africa,11
 2006,Congo,COG,Africa,2
 2006,Croatia,HRV,Europe,1
 2006,Cuba,CUB,Americas,2
@@ -4133,7 +4133,7 @@ Year,Country,ISO,Continent,Disasters
 2006,Jamaica,JAM,Americas,2
 2006,Japan,JPN,Asia,5
 2006,Kenya,KEN,Africa,7
-2006,Korea (the Democratic People's Republic of),PRK,Asia,3
+2006,Korea,PRK,Asia,3
 2006,Korea,KOR,Asia,1
 2006,Kyrgyzstan,KGZ,Asia,2
 2006,Lithuania,LTU,Europe,1
@@ -4221,7 +4221,7 @@ Year,Country,ISO,Continent,Disasters
 2007,China,CHN,Asia,20
 2007,Colombia,COL,Americas,6
 2007,Comoros,COM,Africa,1
-2007,Congo (the Democratic Republic of the),COD,Africa,3
+2007,Congo,COD,Africa,3
 2007,Congo,COG,Africa,1
 2007,Costa Rica,CRI,Americas,2
 2007,Croatia,HRV,Europe,2
@@ -4256,7 +4256,7 @@ Year,Country,ISO,Continent,Disasters
 2007,Jamaica,JAM,Americas,2
 2007,Japan,JPN,Asia,8
 2007,Kenya,KEN,Africa,4
-2007,Korea (the Democratic People's Republic of),PRK,Asia,2
+2007,Korea,PRK,Asia,2
 2007,Korea,KOR,Asia,2
 2007,Kyrgyzstan,KGZ,Asia,1
 2007,Lebanon,LBN,Asia,1
@@ -4353,7 +4353,7 @@ Year,Country,ISO,Continent,Disasters
 2008,Chile,CHL,Americas,3
 2008,China,CHN,Asia,30
 2008,Colombia,COL,Americas,8
-2008,Congo (the Democratic Republic of the),COD,Africa,3
+2008,Congo,COD,Africa,3
 2008,Congo,COG,Africa,2
 2008,Costa Rica,CRI,Americas,4
 2008,Cuba,CUB,Americas,5
@@ -4480,7 +4480,7 @@ Year,Country,ISO,Continent,Disasters
 2009,China,CHN,Asia,26
 2009,Colombia,COL,Americas,3
 2009,Comoros,COM,Africa,1
-2009,Congo (the Democratic Republic of the),COD,Africa,6
+2009,Congo,COD,Africa,6
 2009,Cook Islands,COK,Oceania,1
 2009,Costa Rica,CRI,Americas,1
 2009,Czech Republic,CZE,Europe,2
@@ -4595,7 +4595,7 @@ Year,Country,ISO,Continent,Disasters
 2010,Chile,CHL,Americas,2
 2010,China,CHN,Asia,26
 2010,Colombia,COL,Americas,6
-2010,Congo (the Democratic Republic of the),COD,Africa,6
+2010,Congo,COD,Africa,6
 2010,Congo,COG,Africa,1
 2010,Cook Islands,COK,Oceania,1
 2010,Costa Rica,CRI,Americas,2
@@ -4637,7 +4637,7 @@ Year,Country,ISO,Continent,Disasters
 2010,Japan,JPN,Asia,2
 2010,Kazakhstan,KAZ,Asia,2
 2010,Kenya,KEN,Africa,6
-2010,Korea (the Democratic People's Republic of),PRK,Asia,3
+2010,Korea,PRK,Asia,3
 2010,Korea,KOR,Asia,1
 2010,Kyrgyzstan,KGZ,Asia,2
 2010,Liberia,LBR,Africa,1
@@ -4727,7 +4727,7 @@ Year,Country,ISO,Continent,Disasters
 2011,Chile,CHL,Americas,5
 2011,China,CHN,Asia,20
 2011,Colombia,COL,Americas,3
-2011,Congo (the Democratic Republic of the),COD,Africa,4
+2011,Congo,COD,Africa,4
 2011,Congo,COG,Africa,3
 2011,Costa Rica,CRI,Americas,1
 2011,Dominica,DMA,Americas,1
@@ -4751,7 +4751,7 @@ Year,Country,ISO,Continent,Disasters
 2011,Japan,JPN,Asia,7
 2011,Kazakhstan,KAZ,Asia,1
 2011,Kenya,KEN,Africa,4
-2011,Korea (the Democratic People's Republic of),PRK,Asia,3
+2011,Korea,PRK,Asia,3
 2011,Korea,KOR,Asia,3
 2011,Kyrgyzstan,KGZ,Asia,1
 2011,Laos,LAO,Asia,2
@@ -4836,7 +4836,7 @@ Year,Country,ISO,Continent,Disasters
 2012,China,CHN,Asia,28
 2012,Colombia,COL,Americas,4
 2012,Comoros,COM,Africa,1
-2012,Congo (the Democratic Republic of the),COD,Africa,5
+2012,Congo,COD,Africa,5
 2012,Congo,COG,Africa,3
 2012,Costa Rica,CRI,Americas,2
 2012,Croatia,HRV,Europe,3
@@ -4867,7 +4867,7 @@ Year,Country,ISO,Continent,Disasters
 2012,Japan,JPN,Asia,7
 2012,Kazakhstan,KAZ,Asia,2
 2012,Kenya,KEN,Africa,1
-2012,Korea (the Democratic People's Republic of),PRK,Asia,3
+2012,Korea,PRK,Asia,3
 2012,Korea,KOR,Asia,3
 2012,Kyrgyzstan,KGZ,Asia,2
 2012,Latvia,LVA,Europe,1
@@ -4978,7 +4978,7 @@ Year,Country,ISO,Continent,Disasters
 2013,Italy,ITA,Europe,1
 2013,Japan,JPN,Asia,10
 2013,Kenya,KEN,Africa,4
-2013,Korea (the Democratic People's Republic of),PRK,Asia,1
+2013,Korea,PRK,Asia,1
 2013,Laos,LAO,Asia,3
 2013,Libya,LBY,Africa,1
 2013,Macedonia (the former Yugoslav Republic of),MKD,Europe,1
@@ -5062,7 +5062,7 @@ Year,Country,ISO,Continent,Disasters
 2014,China,CHN,Asia,41
 2014,Colombia,COL,Americas,5
 2014,Comoros,COM,Africa,2
-2014,Congo (the Democratic Republic of the),COD,Africa,3
+2014,Congo,COD,Africa,3
 2014,Costa Rica,CRI,Americas,1
 2014,Croatia,HRV,Europe,2
 2014,Côte d’Ivoire,CIV,Africa,2
@@ -5173,7 +5173,7 @@ Year,Country,ISO,Continent,Disasters
 2015,Chile,CHL,Americas,7
 2015,China,CHN,Asia,36
 2015,Colombia,COL,Americas,5
-2015,Congo (the Democratic Republic of the),COD,Africa,5
+2015,Congo,COD,Africa,5
 2015,Costa Rica,CRI,Americas,2
 2015,Croatia,HRV,Europe,1
 2015,Cuba,CUB,Americas,2
@@ -5205,7 +5205,7 @@ Year,Country,ISO,Continent,Disasters
 2015,Kazakhstan,KAZ,Asia,1
 2015,Kenya,KEN,Africa,3
 2015,Kiribati,KIR,Oceania,1
-2015,Korea (the Democratic People's Republic of),PRK,Asia,2
+2015,Korea,PRK,Asia,2
 2015,Korea,KOR,Asia,1
 2015,Kyrgyzstan,KGZ,Asia,1
 2015,Laos,LAO,Asia,2
@@ -5292,7 +5292,7 @@ Year,Country,ISO,Continent,Disasters
 2016,Chile,CHL,Americas,1
 2016,China,CHN,Asia,33
 2016,Colombia,COL,Americas,3
-2016,Congo (the Democratic Republic of the),COD,Africa,4
+2016,Congo,COD,Africa,4
 2016,Costa Rica,CRI,Americas,1
 2016,Cuba,CUB,Americas,1
 2016,Côte d’Ivoire,CIV,Africa,1
@@ -5317,7 +5317,7 @@ Year,Country,ISO,Continent,Disasters
 2016,Jamaica,JAM,Americas,1
 2016,Japan,JPN,Asia,10
 2016,Kenya,KEN,Africa,3
-2016,Korea (the Democratic People's Republic of),PRK,Asia,2
+2016,Korea,PRK,Asia,2
 2016,Korea,KOR,Asia,3
 2016,Laos,LAO,Asia,1
 2016,Lesotho,LSO,Africa,1
@@ -5406,7 +5406,7 @@ Year,Country,ISO,Continent,Disasters
 2017,Chile,CHL,Americas,5
 2017,China,CHN,Asia,30
 2017,Colombia,COL,Americas,7
-2017,Congo (the Democratic Republic of the),COD,Africa,3
+2017,Congo,COD,Africa,3
 2017,Costa Rica,CRI,Americas,1
 2017,Croatia,HRV,Europe,2
 2017,Cuba,CUB,Americas,1
@@ -5439,7 +5439,7 @@ Year,Country,ISO,Continent,Disasters
 2017,Japan,JPN,Asia,4
 2017,Kazakhstan,KAZ,Asia,1
 2017,Kenya,KEN,Africa,4
-2017,Korea (the Democratic People's Republic of),PRK,Asia,2
+2017,Korea,PRK,Asia,2
 2017,Korea,KOR,Asia,1
 2017,Kyrgyzstan,KGZ,Asia,2
 2017,Laos,LAO,Asia,1
@@ -5530,7 +5530,7 @@ Year,Country,ISO,Continent,Disasters
 2018,Chad,TCD,Africa,1
 2018,China,CHN,Asia,22
 2018,Colombia,COL,Americas,2
-2018,Congo (the Democratic Republic of the),COD,Africa,3
+2018,Congo,COD,Africa,3
 2018,Costa Rica,CRI,Americas,2
 2018,Croatia,HRV,Europe,1
 2018,Cuba,CUB,Americas,2
@@ -5564,7 +5564,7 @@ Year,Country,ISO,Continent,Disasters
 2018,Jordan,JOR,Asia,2
 2018,Kazakhstan,KAZ,Asia,1
 2018,Kenya,KEN,Africa,3
-2018,Korea (the Democratic People's Republic of),PRK,Asia,3
+2018,Korea,PRK,Asia,3
 2018,Korea,KOR,Asia,1
 2018,Kuwait,KWT,Asia,1
 2018,Laos,LAO,Asia,3
@@ -5660,7 +5660,7 @@ Year,Country,ISO,Continent,Disasters
 2019,China,CHN,Asia,17
 2019,Colombia,COL,Americas,7
 2019,Comoros,COM,Africa,2
-2019,Congo (the Democratic Republic of the),COD,Africa,5
+2019,Congo,COD,Africa,5
 2019,Congo,COG,Africa,5
 2019,Costa Rica,CRI,Americas,1
 2019,Croatia,HRV,Europe,1
@@ -5690,7 +5690,7 @@ Year,Country,ISO,Continent,Disasters
 2019,Italy,ITA,Europe,5
 2019,Japan,JPN,Asia,10
 2019,Kenya,KEN,Africa,5
-2019,Korea (the Democratic People's Republic of),PRK,Asia,2
+2019,Korea,PRK,Asia,2
 2019,Korea,KOR,Asia,4
 2019,Laos,LAO,Asia,2
 2019,Lebanon,LBN,Asia,1
@@ -5779,7 +5779,7 @@ Year,Country,ISO,Continent,Disasters
 2020,Chad,TCD,Africa,2
 2020,China,CHN,Asia,12
 2020,Colombia,COL,Americas,6
-2020,Congo (the Democratic Republic of the),COD,Africa,7
+2020,Congo,COD,Africa,7
 2020,Congo,COG,Africa,2
 2020,Costa Rica,CRI,Americas,1
 2020,Croatia,HRV,Europe,2
@@ -5814,7 +5814,7 @@ Year,Country,ISO,Continent,Disasters
 2020,Japan,JPN,Asia,4
 2020,Kazakhstan,KAZ,Asia,1
 2020,Kenya,KEN,Africa,1
-2020,Korea (the Democratic People's Republic of),PRK,Asia,1
+2020,Korea,PRK,Asia,1
 2020,Korea,KOR,Asia,5
 2020,Laos,LAO,Asia,2
 2020,Lebanon,LBN,Asia,1
@@ -5908,7 +5908,7 @@ Year,Country,ISO,Continent,Disasters
 2021,Chile,CHL,Americas,2
 2021,China,CHN,Asia,11
 2021,Colombia,COL,Americas,5
-2021,Congo (the Democratic Republic of the),COD,Africa,2
+2021,Congo,COD,Africa,2
 2021,Costa Rica,CRI,Americas,1
 2021,Cuba,CUB,Americas,2
 2021,Cyprus,CYP,Asia,1
@@ -5935,7 +5935,7 @@ Year,Country,ISO,Continent,Disasters
 2021,Japan,JPN,Asia,6
 2021,Kazakhstan,KAZ,Asia,1
 2021,Kenya,KEN,Africa,4
-2021,Korea (the Democratic People's Republic of),PRK,Asia,1
+2021,Korea,PRK,Asia,1
 2021,Kyrgyzstan,KGZ,Asia,1
 2021,Laos,LAO,Asia,1
 2021,Lesotho,LSO,Africa,1
