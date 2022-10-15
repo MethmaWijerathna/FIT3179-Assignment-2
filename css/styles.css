@@ -8,17 +8,29 @@ h1 {
 }
 
 body {
-    background-color: black;
+    background-color: white;
 }
 
 .page {
-    width: 850px;
-    background-color: darkslateblue;
+    width: 100%;
+    background-color: white;
     margin: auto;
-    padding: 50px;
-    padding-top: 35px;
-    color: white;
+    color: #898989;
 }
+
+.header {
+    background-color: #0F6CB6;
+    color: white;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.header span b {
+    font-size: 1.5em;
+}
+
 
 .vis-container {
     width: 100%;
@@ -38,9 +50,41 @@ h1 {
 }
 
 .pure-g {
-    margin-bottom: 80px;
+    margin-bottom: 1%;
+    padding-left: 1%;
+}
+
+.pure-g h3 {
+    color: #0F6CB6;
 }
 
 .small-font {
     font-size: 14px;
+}
+
+table {
+    text-align: center;
+    table-layout: fixed;
+    width: 100%;
+    height: 500px;
+}
+table td {
+    padding: 1%;
+    width: max-content;
+    color: #0F6CB6;
+}
+
+table td span {
+    color: #898989;
+    font-size: 0.85em;
+}
+
+table td ion-icon{
+    font-size: 2em;
+}
+
+.footer {
+    background-color: #0F6CB6;
+    color: white;
+    padding-left: 2%;
 }

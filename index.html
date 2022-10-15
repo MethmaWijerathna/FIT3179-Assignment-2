@@ -7,6 +7,10 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
 
+  <!-- Ion Icons -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
   <!-- Import pure.css -->
   <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
     integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
@@ -29,57 +33,185 @@
   <div class="page">
 
     <!-- pure grid group -->
-    <div>
-      <div style="font-family: 'Dancing Script', cursive; font-size: 2em;">
-        <h1><b><i>Natural Disasters Visualisation</i></b></h1>
-      </div>
+    <div class="header">
+      <span><b>Overview of Natural Disasters (as of 2021)</b><br>Natural Disasters occurred from the year 1900 to
+        2021</span>
     </div>
     <!-- end pure grid group -->
 
     <!-- pure grid group -->
     <div class="pure-g">
       <div class="pure-u-1-1">
-        <div class="">
-          <h2>Total number of disasters from 1900 to 2022 based on country</h2>
-          <p>The map shows the number of natural disasters that have occured from 1900 to 2022 per each country. The
-            color of the map is a diverging one where as the color becomes darker the number of disasters are higher as
-            observed in the legend. </p>
+        <div>
+          <p style="font-size: 0.85em;">From 1900 to 2021, 8,323,682,171 people were affected by
+            natural disasters throughout world. A total of 128 countries out of 150 experienced some kind of natural
+            disaster during the period.
+            World is prone to earthquakes, flooding, drought, landslides, and avalanches and many more types of
+            disasters. Over hundred years of
+            conflict, coupled with environmental degradation, and insufficient investment in disaster risk reduction
+            strategies, have contributed to increasing vulnerability of the people of the world to cope with the sudden
+            effect
+            of natural disasters. </p>
         </div>
-      </div>
-      <div class="">
-        <div id="disaster_map" class="vis-container"></div>
       </div>
     </div>
     <!-- end pure grid group -->
 
+
     <!-- pure grid group -->
     <div class="pure-g">
-      <div class="pure-u-1-3">
-        <div class="description description-right">
-          <h2>Total number of disasters from 1900 to 2022</h2>
-          <p>The graph shows the number of natural disasters that have occured from 1900 to 2022. The trend that can be
-            observed is that until 2002 the yearly number of disasters have increased and then a decrease is observed
-            from there onwards. </p>
+      <div class="pure-u-1-4">
+        <div class="description description-right" style="padding-left: 0%;">
+          <h3 style="text-align: center;">Key Statistics</h3>
+          <span style="color: #0F6CB6;">------------------------------------------------------------------------</span>
+          <table>
+            <tr>
+              <td>
+                <ion-icon name="close"></ion-icon>
+              </td>
+              <td><span>No. of People Killed<span></td>
+              <td><b>32,445,624</b></td>
+            </tr>
+            <tr>
+              <td>
+                <ion-icon name="accessibility"></ion-icon>
+              </td>
+              <td><span>No. of People Injured<span></td>
+              <td><b>10,209,191</b></td>
+            </tr>
+            <tr>
+              <td>
+                <ion-icon name="person-add"></ion-icon>
+              </td>
+              <td><span>No. of People Affected<span></td>
+              <td><b>8,135,370,655</b></td>
+            </tr>
+            <tr>
+              <td>
+                <ion-icon name="home"></ion-icon>
+              </td>
+              <td><span>No. of People Homeless<span></td>
+              <td><b>178,102,325</b></td>
+            </tr>
+            <tr>
+              <td>
+                <ion-icon name="medkit"></ion-icon>
+              </td>
+              <td><span>Total. of People Affected<span></td>
+              <td><b>8,323,682,171</b></td>
+            </tr>
+            <tr>
+              <td>
+                <ion-icon name="business"></ion-icon>
+              </td>
+              <td><span>No. of People Insured<span></td>
+              <td><b>875,321,961</b></td>
+            </tr>
+          </table>
+          <span style="color: #0F6CB6;">------------------------------------------------------------------------</span>
+          <h3 style="text-align: center;">Number of Natural Disasters per year in each country</h3>
+          <p style="font-size: 0.85em;">The map on the right shows the annual number of natural disasters that have
+            taken place in the year which
+            is represented by the slider. The slider can be adjusted to view data in different years from 1900 to 2021.
+            No natural disasters are represented by light blue.
+          </p>
         </div>
       </div>
       <div class="pure-u-2-3">
-        <div id="line" class="vis-container"></div>
+        <div id="country_map" class="vis-container"></div>
       </div>
     </div>
     <!-- end pure grid group -->
 
     <!-- pure grid group -->
-    <div class="pure-g">
-      <div class="pure-u-1-1">
-        <div class="description description-right">
-          <h2>Total number of disasters from 1970 to 2021</h2>
-          <p>The bars show the number of natural disasters that have occured from 1970 to 2022. Filtering can be
-            performed by using the drop down to get the statistics based on the continents. The tooltips show the early statistics for each
-            country in the year.</p>
-        </div>
+    <div class="pure-g" style="padding-top: 5%;">
+      <div class="pure-u-2-3">
+        <div id="disaster_map" class="vis-container"></div>
       </div>
-      <div class="pure-u-1-1">
+      <div class="pure-u-1-3">
+        <div style="height: 20%;"></div>
+        <h3>Number of Natural disasters in each country from 1900 to 2021</h3>
+        <p style="font-size: 0.85em;">The map on the left shows the total number of disasters in each country from 1900
+          to 2021. The map contains the totals calculated from each country within the period and includes all types of
+          natural disasters that have occurred within the period. All countries with no disasters recorded are observed
+          in light blue.
+        </p>
+        <p style="font-size: 0.85em;">The most number of natural disasters in this period have occurred in United States
+          of America where a total of
+          1087 natural disasters have occurred. China is the second highest number of natural disasters with a total of
+          980 has been observed with in this period. Next in line are India, Philippines and Indonesia respectively, and
+          these are the only other countries with more than 500 natural disasters within this period, based on the data
+          used.</p>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g"
+      style="display: flex; justify-content: center; align-items: center; text-align: center; padding-top: 5%;">
+      <div class="pure-u-1-2">
+        <h3>Total Number of Natural disasters from 1900 to 2021</h3>
+        <p style="font-size: 0.85em;">The line chart below represents the total number of disasters occurred in each
+          year
+          from 1900
+          to 2021. As observed, based on the data in the beginning of the 1900s, the number of natural disasters that
+          have occurred per year is minimal and then gradually increases and eventually peeks in 2002 with 532 natural
+          disasters occurring in the year. Since 2002, a gradual decrease is observed until 2021.
+        </p>
+      </div>
+      <div class="pure-u-1-2">
+        <h3>Frequency of the types of Natural Disasters occurred from 1900 to 2021 </h3>
+        <p style="font-size: 0.85em;">The radial chart below represents the different types of natural disasters and the
+          frequency in which they have occurred, between the years 1900 and 2021. Based on the data analyzed to create
+          the charts, the most common type of natural disaster is floods which have occurred 5551 time within the
+          period, next in line are storms which have taken place 4496 times in between the years 1900 and 2021.
+        </p>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g" style="display: flex; justify-content: center; align-items: center;">
+      <div class="pure-u-1-2">
+        <div id="line" class="vis-container"></div>
+      </div>
+      <div class="pure-u-2-2">
+        <div id="pie" class="vis-container"></div>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g" style="padding-top: 3%; padding-bottom: 5%;">
+      <div class="pure-u-1-3">
+        <div style="height: 30%;"></div>
+        <h3 style="text-align: center;">Number of Natural disasters in each continent from 1900 to 2021</h3>
+        <p style="font-size: 0.85em;">The bar chart on the right represents the total number of natural disasters that
+          have taken place in each continent in the years 1900 to 2021. Each color of each bar represents a specific
+          continent as observed in the color legend. The dropdown selection can be used to filter out separate
+          continents based on the data.</p>
+        <p style="font-size: 0.85em;"><b>Note: </b>The y-axis changes the scale when filtered to allow better
+          visualization fo the data. When filtered it can be observed that the most number of natural disaster can be
+          observed in Asia followed by America based on the trends observed.</p>
+      </div>
+      <div class="pure-u-2-3">
         <div id="bar" class="vis-container"></div>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+
+    <!-- pure grid group -->
+    <div class="footer">
+      <div class="pure-u-1-1">
+        <div>
+          <p style="font-size: 0.65em;"><b>Notes: </b> This data visualization is created by using Vega-Lite, HTML and
+            pure-css. The data used for this visualization has been taken from
+            https://www.kaggle.com/datasets/brsdincer/all-natural-disasters-19002021-eosdis. The name of the dataset is
+            ALL NATURAL DISASTERS 1900-2021 / EOSDIS &copy; and this is authored Baris Dincer from open database. The data has been manipulated by using python pandas library. All icons have been retrieved from Ionic (https://ionic.io/ionicons)
+            <br><b>Authored by: </b> Methma Wijerathna | Copyright &copy; 2022
+          </p>
+        </div>
       </div>
     </div>
     <!-- end pure grid group -->
@@ -103,6 +235,16 @@
 
     var spec4 = "https://raw.githubusercontent.com/MethmaWijerathna/FIT3179-Assignment-2/main/js/yearly_line.vg.json";
     vegaEmbed('#line', spec4, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    var spec5 = "https://raw.githubusercontent.com/MethmaWijerathna/FIT3179-Assignment-2/main/js/country_disaster_map.vg.json";
+    vegaEmbed('#country_map', spec5, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    var spec6 = "https://raw.githubusercontent.com/MethmaWijerathna/FIT3179-Assignment-2/main/js/disaster_pie.vg.json"
+    vegaEmbed('#pie', spec6, { "actions": false }).then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
