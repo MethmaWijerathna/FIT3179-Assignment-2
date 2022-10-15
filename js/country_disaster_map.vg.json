@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Natural Disasters in each country from 1900 to 2021",
-  "width": 800,
-  "height": 500,
+  "width": 1050,
+  "height": 700,
   "params": [
     {
       "name": "Year_selection",
@@ -33,7 +33,7 @@
       ],
       "mark": {
         "type": "geoshape",
-        "fill": "#ddd",
+        "fill": "#e1f0ff",
         "stroke": "white",
         "strokeWidth": 1
       },
@@ -65,7 +65,8 @@
         "shape": {"field": "geo", "type": "geojson"},
         "color": {
           "field": "Disasters",
-          "type": "quantitative"
+          "type": "quantitative",
+          "scale": {"scheme": "purpleblue"}
         },
         "tooltip": [
           {"field": "Country", "type": "nominal", "title": "Country"},
