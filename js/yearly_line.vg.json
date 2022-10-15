@@ -12,7 +12,7 @@
             "field": "Year",
             "type": "nominal",
             "title": "Year",
-            "axis": {"labels": false}
+            "axis": null
         },
         "y": {
             "field": "Disasters",
@@ -23,7 +23,7 @@
             "type": "nominal",
             "field": "status_mean",
             "scale": {
-                "range": ["#F6BE00"]
+                "range": ["#0F6CB6"]
             },
             "legend":null
         },
