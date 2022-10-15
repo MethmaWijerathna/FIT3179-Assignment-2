@@ -1,8 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 400,
-    "height": 400,
-    "title": "Types of disasters occured from 1900 to 2021",
+    "width": 600,
+    "height": 500,
+    "title": "Types of disasters occurred from 1900 to 2021",
     "data": {
         "url": "https://raw.githubusercontent.com/MethmaWijerathna/FIT3179-Assignment-2/main/data/Disaster%20Types.csv"
     },
@@ -44,12 +44,12 @@
             {
                 "field": "Disaster Type",
                 "type": "nominal",
-                "title": "Natural Disaster Occured"
+                "title": "Natural Disaster Occurred"
             },
             {
                 "field": "Frequency",
                 "type": "quantitative",
-                "title": "Number of times occured",
+                "title": "Number of times Occurred",
                 "format": ","
             }
         ]
