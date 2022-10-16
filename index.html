@@ -117,7 +117,7 @@
           </p>
         </div>
       </div>
-      <div class="pure-u-2-3">
+      <div class="pure-u-3-4">
         <div id="country_map" class="vis-container"></div>
       </div>
     </div>
@@ -175,7 +175,7 @@
       <div class="pure-u-1-2">
         <div id="line" class="vis-container"></div>
       </div>
-      <div class="pure-u-2-2">
+      <div class="pure-u-1-2">
         <div id="pie" class="vis-container"></div>
       </div>
     </div>
@@ -224,26 +224,31 @@
   <script type="text/javascript">
 
     var spec2 = "https://raw.githubusercontent.com/MethmaWijerathna/FIT3179-Assignment-2/main/js/disaster_map.vg.json";
+    // var spec2 = "../js/disaster_map.vg.json"
     vegaEmbed('#disaster_map', spec2, { "actions": false }).then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
     var spec3 = "https://raw.githubusercontent.com/MethmaWijerathna/FIT3179-Assignment-2/main/js/country_yearly_bar.vg.json";
+    // var spec3 = "../js/country_yearly_bar.vg.json"
     vegaEmbed('#bar', spec3, { "actions": false }).then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
     var spec4 = "https://raw.githubusercontent.com/MethmaWijerathna/FIT3179-Assignment-2/main/js/yearly_line.vg.json";
+    // var spec4 = "../js/yearly_line.vg.json"
     vegaEmbed('#line', spec4, { "actions": false }).then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
     var spec5 = "https://raw.githubusercontent.com/MethmaWijerathna/FIT3179-Assignment-2/main/js/country_disaster_map.vg.json";
+    // var spec5 = "../js/country_disaster_map.vg.json"
     vegaEmbed('#country_map', spec5, { "actions": false }).then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
     var spec6 = "https://raw.githubusercontent.com/MethmaWijerathna/FIT3179-Assignment-2/main/js/disaster_pie.vg.json"
+    // var spec6 = "../js/disaster_pie.vg.json"
     vegaEmbed('#pie', spec6, { "actions": false }).then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);

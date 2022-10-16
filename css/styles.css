@@ -13,6 +13,7 @@ body {
 
 .page {
     width: 100%;
+    height: 100%;
     background-color: white;
     margin: auto;
     color: #898989;
@@ -62,24 +63,24 @@ h1 {
     font-size: 14px;
 }
 
-table {
+.pure-u-1-4 table {
     text-align: center;
     table-layout: fixed;
     width: 100%;
     height: 500px;
 }
-table td {
+.pure-u-1-4 table td {
     padding: 1%;
     width: max-content;
     color: #0F6CB6;
 }
 
-table td span {
+.pure-u-1-4 table td span {
     color: #898989;
     font-size: 0.85em;
 }
 
-table td ion-icon{
+.pure-u-1-4 table td ion-icon{
     font-size: 2em;
 }
 
