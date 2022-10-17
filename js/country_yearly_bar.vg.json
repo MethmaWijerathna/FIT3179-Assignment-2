@@ -42,7 +42,10 @@
             "field": "Year",
             "type": "nominal",
             "title": "Year",
-            "axis": null
+            "axis": {
+                "labelOverlap": "parity",
+                "labelAngle": 0
+            }
         },
         "y": {
             "field": "Disasters",
