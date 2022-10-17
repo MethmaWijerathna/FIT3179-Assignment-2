@@ -68,6 +68,8 @@ h1 {
     table-layout: fixed;
     width: 100%;
     height: 500px;
+    border-top: 2px dashed #0F6CB6;
+    border-bottom: 2px dashed #0F6CB6;
 }
 .pure-u-1-4 table td {
     padding: 1%;
